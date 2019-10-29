@@ -56,5 +56,3 @@ def get_asr(token):
 if __name__ == "__main__":
     token = get_token(API_Key, Secret_Key, TOKEN_URL)
     result = get_asr(token)
-
-    print(result)
